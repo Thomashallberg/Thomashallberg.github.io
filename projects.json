@@ -1,0 +1,34 @@
+{
+    "projects": [
+        {
+            "title": "Cassini hackathon",
+            "description": "Collaboration between me and my team for the Cassini hackathon",
+            "link": "https://github.com/erikhalt/Hackathon",
+            "video": "./videos/satellit.mp4"
+        },
+        {
+            "title": "Hotell booking system",
+            "description": "Using sql-Alchemy to store booked customers in a database",
+            "link": "https://github.com/Thomashallberg/HotellSQL",
+            "video": ""
+        },
+        {
+            "title": "Banksystem web app",
+            "description": "Here I used python code, Flask as framework, connected it to a mySQL database and pipelined it via github to deploy on Azure",
+            "link": "https://github.com/Thomashallberg/WebBank",
+            "video": ""
+        },
+        {
+            "title": "Banksystem",
+            "description": "CRUD app, register accounts and transfered money. Saving on file",
+            "link": "https://github.com/Thomashallberg/Bankomat",
+            "video": ""
+        },
+        {
+            "title": "Cash register with unit tests (pytest)",
+            "description": "Register purchased products, saving receipt on file with working unit tests",
+            "link": "https://github.com/Thomashallberg/KassaRegister",
+            "video": ""
+        }
+    ]
+}

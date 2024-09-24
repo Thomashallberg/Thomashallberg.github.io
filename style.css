@@ -1,0 +1,129 @@
+
+
+.background {
+    background-image: url("../images/bakgrund.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    
+}
+
+
+
+ 
+
+
+#puddle {
+    background-image: url("../images/puddle.png");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 400px;
+    max-height: 400px;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    padding-bottom: 10px;
+    right: 0%;
+    left: 0%;
+    top: 5%;
+
+   
+
+}
+    
+#tokyothomas{
+    background-image: url("../images/tokyoThomas.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 300px;
+    max-height: 300px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: relative;
+    padding-bottom: 10px;
+    right: 0%;
+    left: 0%;
+    top: 5%;
+    z-index: 9999;
+
+}  
+
+
+
+.op-50 {
+    opacity: 50%;
+}
+
+.c-con {
+    background-color: rgba(33, 37, 41, 0.60);
+    
+}
+
+.c-text {
+    font-family: Verdana, sans-serif;
+    color:#fbeeff;
+    font-weight: 600;
+}
+
+span{
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.card-body {
+    min-height: 200px;
+    border-radius: 15px;
+    max-height: 200px;
+    
+    
+}
+.card{
+    background-color: transparent;
+    border-radius: 15px;
+    overflow: hidden;
+
+    
+}
+.btn{
+    color: black;
+    background-color: aqua;
+    position: relative fixed;
+    margin-bottom: 2px;
+
+}
+.card-with-video {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the card properly */
+    z-index: 1; /* Sends the video behind the card content */
+    opacity: 0.8; /* Optional: make the video slightly transparent */
+}
+
+.card-body {
+    position: relative;
+    z-index: 1; /* Ensures the content is above the video */
+}
+#cassini {
+    width: 100%;
+}
+
+
+
